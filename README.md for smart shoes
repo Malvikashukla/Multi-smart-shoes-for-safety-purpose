@@ -1,0 +1,25 @@
+# Multi Smart Shoes for Safety Purpose
+
+This project is designed to assist visually impaired individuals by providing obstacle detection and real-time location tracking using embedded sensors and communication modules.
+
+## Features
+
+-  Obstacle detection using Ultrasonic sensor
+-  Real-time vibration alert system
+-  GPS module for live location tracking
+-  GSM module for emergency SMS alerts
+-  Battery-powered compact wearable system
+
+##  Components Used
+
+| Component        | Description                          |
+|------------------|--------------------------------------|
+| Arduino UNO      | Microcontroller board                |
+| Ultrasonic Sensor| Measures distance to detect objects  |
+| Vibration Motor  | Alerts user on obstacle detection    |
+| GPS Module       | Gets live location (lat, long)       |
+| GSM Module       | Sends SMS alert with location        |
+| Battery          | Powers the circuit                   |
+
+##  Folder Structure
+
