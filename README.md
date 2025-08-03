@@ -12,7 +12,19 @@ To enhance the mobility and safety of blind or elderly individuals by:
 - Sending real-time GPS location via SMS alerts
 - Delivering a portable, low-cost embedded solution
 
+ TECHNOLOGIES USED:
 
+  | Component              | Function / Role                                  |
+  |------------------------|--------------------------------------------------|
+  | Arduino UNO            | Microcontroller (controls the system)           |
+  | Ultrasonic Sensor      | Detects nearby obstacles                         |
+  | NEO-6M GPS Module      | Provides real-time location (lat/lon)            |
+  | SIM800L GSM Module     | Sends SMS alerts with location                   |
+  | HC-05 Bluetooth Module | Sends data to mobile phone via Bluetooth         |
+  | Buzzer                 | Gives audible alert when obstacle is detected    |
+  | Pressure Sensor        | Detects footstep or user impact                  |
+  | Touch Sensor           | Toggles the alert system (on/off switch)         |
+  | Power Supply           | External portable power (Battery/Power bank)     
 
 ##  Hardware Components
 
